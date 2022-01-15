@@ -1,0 +1,98 @@
+:root {
+      --form-control-color: rebeccapurple;
+      --form-control-disabled: #959495;
+}
+
+header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+
+.tasks {
+      height: 20em;
+      overflow: auto;
+}
+
+.boxes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.secondBox {
+      display: flex;
+      /* align-items: center; */
+      /* flex-direction: column; */
+      justify-content: center;
+      width: 40.62em; /* 650px */
+      height: 23.6125em; /* 377.8px */
+      background: #fff;
+      border: 0.1875em solid #000;
+      box-sizing: border-box;
+      border-radius: 0.9375em;
+      margin-top: 3.125em;
+}
+
+.button {
+      height: 6vh;
+      width: 4.6875em /*75px*/;
+      cursor: pointer;
+      color: #000;
+      text-align: center;
+      display: inline-block;
+      font-size: 1em;
+      transition-duration: 0.1s;
+      background-color: #fff;
+      border: 0.125em solid #000;
+}
+
+.taskText {
+      width: 24em /*550px*/;
+      height: 0px;
+      border: 0.000625em solid #000000;
+      background-color: #000;
+      margin-top: -0.9375em;
+}
+
+.taskContainer {
+      margin-top: 1em;
+}
+
+.checkContainer {
+      display: inline-block;
+}
+
+.taskToDo {
+      display: inline-block;
+}
+
+footer {
+      position: absolute;
+      bottom: 100px;
+}
+
+.taskNumber,
+.deleteButton {
+      display: inline-block;
+}
+
+.taskRemaining {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+.deleteButton {
+      position: absolute;
+      left: 20em;
+      bottom: 0.75em;
+}
+
+.deleteButton:hover {
+      background-color: #d90429;
+      color: #fff;
+      border: 0.125em solid #d90429;
+}

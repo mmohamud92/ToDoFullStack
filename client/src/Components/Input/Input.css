@@ -1,0 +1,54 @@
+.boxes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.firstBox {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 40.62em; /* 650px */
+      height: 4.6875em; /* 75px */
+      background: #fff;
+      border: 0.1875em solid #000;
+      box-sizing: border-box;
+      border-radius: 0.9375em;
+      margin-top: 1.5625em;
+}
+
+header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+
+.taskContainer {
+      margin-top: 1em;
+}
+
+.taskInput {
+      text-align: center;
+      font-size: 1em;
+      height: 6vh;
+      width: 21.875em /*350px*/;
+}
+
+.button {
+      height: 6vh;
+      width: 4.6875em /*75px*/;
+      cursor: pointer;
+      color: #000;
+      text-align: center;
+      display: inline-block;
+      font-size: 1em;
+      transition-duration: 0.1s;
+      background-color: #fff;
+      border: 0.125em solid #000;
+}
+
+.addButton:hover {
+      background-color: #000;
+      color: #fff;
+}
